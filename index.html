@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <!--Box Icons-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">AITHA VEERA NAGA RIYESH</div>
+        <div class="text-three">AIML ENGINEER / FRONTEND DEVELOPER</div>
+        <div class="text-four">From India</div>
+      </div>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="PERSONAL IMG.jpg" alt="" />
+        </div>
+        <div class="right">
+          <p>
+            I am a student at Kalasalingam Academy of Research and Education.
+            Studying Computer Science and Engineering with a specialization of Artificial Intelligence & Machine
+            Learning and intrested in programming and development and I'm also a Front End Developer. I am also well
+            known
+            in python programming and the basics of Machine Learning.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="listSkill">
+        <div class="item">
+          <div class="name">HTML5</div>
+          <div class="evaluate" style="--point:80%"></div>
+        </div>
+        <div class="item">
+          <div class="name">CSS3</div>
+          <div class="evaluate" style="--point:80%"></div>
+        </div>
+        <div class="item">
+          <div class="name">Javascript</div>
+          <div class="evaluate" style="--point:50%"></div>
+        </div>
+        <div class="item">
+          <div class="name">React JS</div>
+          <div class="evaluate" style="--point:50%"></div>
+        </div>
+        <div class="item">
+          <div class="name">Python</div>
+          <div class="evaluate" style="--point:80%"></div>
+        </div>
+        <div class="item">
+          <div class="name">Machine Learning</div>
+          <div class="evaluate" style="--point:50%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section Start -->
+  <section class="services" id="Services">
+    <div class="content">
+      <div class="title"><span>Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="topic">Frontend Devloper</div>
+          <p>I proficient in frontend development, crafting visually appealing and interactive user interfaces using
+            HTML,
+            CSS, and JavaScript. I pay attention to details such as color schemes, and intuitive navigation
+            to create engaging and user-friendly websites.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="topic">Digital Marketing</div>
+          <p>I aim to help businesses establish a strong online presence, connect with their target audience, and
+            achieve their marketing objectives. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact <span>Me!</span></h2>
+      <h4>If you have any project in your mind.</h4>
+      <p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
+      <div class="list">
+        <li><a href="#">9346502352</a></li>
+        <li><a href="#">aithariyesh7102@gmail.com</a></li>
+      </div>
+
+      <div class="contact-icons">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+      </div>
+
+    </div>
+    <div class="contact-form">
+      <form action="">
+        <input type="name" placeholder="Your Name " required>
+        <input type="email" placeholder="Your Email " required>
+        <input type="number" placeholder="your Mobile Number" required>
+        <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+        <input type="submit" value="Send Message" class="submit" required>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <section class="end">
+		<div class="last-text">
+			<p>Design By AITHA VEERA NAGA RIYESH</p>
+		</div>
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+		</div>
+	</section>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
